@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: calendar.TimeTableTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.326 sec <<< FAILURE! - in calendar.TimeTableTest
-test02(calendar.TimeTableTest)  Time elapsed: 0.001 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<	1/30/2018 at 3:30pm ,Birthday Party, This is my birthday party.
-> but was:<null>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at calendar.TimeTableTest.test02(TimeTableTest.java:259)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec - in calendar.TimeTableTest

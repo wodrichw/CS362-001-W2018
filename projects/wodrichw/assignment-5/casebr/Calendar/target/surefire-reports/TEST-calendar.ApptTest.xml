@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="calendar.ApptTest" time="0" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="calendar.ApptTest" time="0.004" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -60,7 +60,10 @@
     <property name="project.build.outputDirectory" value="/home/william/Documents/School/winter18/cs362/CS362-001-W2018/projects/wodrichw/assignment-5/casebr/Calendar/target/generated-classes/cobertura"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+  <testcase name="testNotValid" classname="calendar.ApptTest" time="0.004"/>
   <testcase name="test01" classname="calendar.ApptTest" time="0"/>
   <testcase name="test02" classname="calendar.ApptTest" time="0"/>
+  <testcase name="setterTest" classname="calendar.ApptTest" time="0"/>
+  <testcase name="toStringTest" classname="calendar.ApptTest" time="0"/>
   <testcase name="testRecure" classname="calendar.ApptTest" time="0"/>
 </testsuite>

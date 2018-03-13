@@ -1,0 +1,32 @@
+Bug Report.
+#1
+Bug: The appointments in a cal day object are not sorted correctly
+Cause: The insertion sort of a new appointment starts at index 1 instead of index 0 in the appointment array.
+Reproduce: This bug can be reproduced by creating two appointments of the same day and different start hours.
+						One of the appointments starts at a later time than the other. Add the later appointment to a  
+						cal day first and then the earlier second. When you test that the appoitments are sorted in the
+						cal day, you find that the later one actually starts first.
+Replicated by:	
+		cal = new CalDay(today)
+		Appt appt = new Appt(startHour,
+		          startMinute ,
+		          startDay ,
+		          startMonth ,
+		          startYear ,
+		          title,
+						 description);
+		cal.addAppt(appt);
+		appt =  new Appt((startHour - 3),
+		          startMinute ,
+		          startDay ,
+		          startMonth ,
+		          startYear ,
+		          title,
+						 description);
+		cal.addAppt(appt);
+
+Severity: No other methods rely on the calander day to have a sorted list of appointments, I would say this
+					is low severity.
+
+Priority: Since, the correct assortment of appointments in a calander day is relatively critical to the usability of the
+					program, I would say this has a medium priority.

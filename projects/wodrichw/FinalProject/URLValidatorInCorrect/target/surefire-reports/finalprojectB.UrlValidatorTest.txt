@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: finalprojectB.UrlValidatorTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.263 sec <<< FAILURE! - in finalprojectB.UrlValidatorTest
+testManualTest(finalprojectB.UrlValidatorTest)  Time elapsed: 0.221 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at junit.framework.TestCase.assertTrue(TestCase.java:201)
+	at finalprojectB.UrlValidatorTest.testManualTest(UrlValidatorTest.java:28)
+
